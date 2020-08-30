@@ -1,0 +1,51 @@
+what to test
+___________________________
+User registration and login
+My account page
+Checkout, cart, wishlist
+Homepage
+Search and filter
+Footer links
+
+how to report
+___________________________
+Issue Title
+Issue Title is the field where you describe what issue (bug) is being reported. It must follow the format listed in the cycle overview in order for your bug report to be approved. Here are the title requirements you must follow for the Introduction to Testing test cycle:
+
+Write the bug title by following the required format in the cycle overview (generally the required bug title format is in the Issue Reporting Instructions section of the overview). For the Introduction to Testing cycle it is: Device - Area of the app - Description of the issue
+Include your device model or OS in the title (Examples: Windows 10, MacOS Catalina)
+Describe the area the bug was found in the app (Examples: Search, My Profile, Checkout)
+Describe the bug that is being reported accurately (Example: The app crashes after a photo is uploaded)
+Verify by the title that the bug has not already been reported by another tester when participating in a paid cycle
+Do not write the title in ALL CAPS
+Do not write the browser name in the title (Unless specifically instructed to in the overview)
+Use a capital letter at the beginning of every line in your report (Title, Action Performed, Expected and Actual results)
+
+Issue Classification
+Select the correct bug classification to explain what type of bug is being reported, how often it occurs, what environments were used and the impact of the bug to the user.
+
+Issue Type: Functional, Visual, Content, Performance or Crash - Review this uTest article
+Frequency: Every Time, Hardly ever, Occasionally or Once
+Device and environment: Must be selected correctly and match the title
+Severity: Critical, High, Medium, Low
+
+Actions Performed
+Describe how to reproduce the bug by writing numbered steps in the actions performed field.
+
+Use numbered steps to show how to recreate the bug
+Write only one task on each step
+Begin the numbered steps from the homepage URL of the website or opening the app mentioned in the overview
+Do not write "observe, check, or view result" in the numbered steps
+Do not write the expected or actual results in the numbered steps
+Do not write the URL in the following steps (include the URL in the first step only)
+
+Expected Results
+Describe exactly what the user would expect to happen when carrying out the steps in the actions performed.
+
+
+Actual Results
+Describe exactly what does happen when the user carries out the steps in the actions performed.
+
+
+Error Message
+Only use this field if there is an error message when recreating the bug. Write the full error message that is displayed on the screen if the bug results in an error message.

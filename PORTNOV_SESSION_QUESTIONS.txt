@@ -1,0 +1,88 @@
+- What is Quality?
+
+Customer satisfaction. Subjective term. It will depend on who the ‘customer’ is. Each type of customer will have their own view on ‘quality’
+  
+
+- What is Software Quality?
+Measurement of how close is actual software product to the expected (intended) product
+Customer satisfaction (to who?)
+Not to be confused with Quality Software, which is reasonably bug-free, delivered on time and within budget, meets requirements and/or expectations, and is maintainable
+ 
+- What is Software Quality Assurance
+The process of monitoring and improving all activities associated with software development, from requirements gathering, design and reviews to coding, testing and implementation. 
+
+ 
+- What is the difference between Software Testing and Software QA?
+Testing is mainly focused on the source code (black, gray, white box)
+
+“Quality Assurance”  measures the quality of processes used to create a quality product
+
+ 
+
+- What is Software Testing?
+The purpose of testing is verification, validation and error detection (in order to find and fix the problems)
+
+- Verification is checking for conformance and consistency by evaluating the results against pre-specified requirements. (Verification: Are we building the system right?)
+
+- Validation is the process of checking that what has been specified is what the user actually wanted. (Validation: Are we building the right system?)
+
+- Error Detection: finding if things happen when they shouldn’t or things don’t happen when they should.
+
+ 
+
+- Is it possible to find/fix all the bugs in a software product before it goes to the customers? Why test?
+
+To establish and to enforce business systems of the QA Organization (Test planning, bug tracking, bug reporting, test automation, release certification, and others)
+
+ 
+
+- What is black/white/gray box testing?
+
+Black box software testing is done without access to the source code.
+
+White box testing is done with access to the code. Bugs are reported at the source code level, not behavioral.
+
+Gray box testing is using structural, design, and environment information (complete or incomplete) to expand or focus black box testing and to enhance testing productivity by using appropriate methods and tools.
+ 
+
+- Describe a bug?
+
+Mismatch between actual behavior of a software application and its intended (expected) behavior. We learn about expected behavior from requirements, specifications, other technical documentation.
+
+ 
+
+- What is use case?
+
+Use case is a format used by Business Analysts for specifying system requirements. Each use case normally represents completed business operation performed by user.  From the QA prospective we will execute corresponding End-To-End test to make sure the requirement is implemented.
+
+Find more here: http://searchsoftwarequality.techtarget.com/sDefinition/0,,sid92_gci334062,00.html
+
+ 
+
+- What is the most important impact QA can have on a product development process?
+
+Clarifying requirements
+
+Bringing down percentage of code re-written due to the change in requirements
+
+ 
+
+- What is Negative testing? Positive?
+
+Positive testing aimed at showing software works as intended when user does correct actions.
+
+Negative testing aimed at showing that software handles properly situations in which user acts not as user is supposed to act (invalid inputs, unreasonable selections of settings, etc.)
+
+ 
+
+- Which type of testing results in highest number of bugs found?
+
+Negative testing (versus Positive testing of same type)
+
+ 
+
+- What is the software development life cycle?
+
+The software development life cycle (SDLC) is a conceptual model used in project management that describes the stages involved in an information system development project, from an initial feasibility study through maintenance of the completed application. Read more - http://searchsoftwarequality.techtarget.com/sDefinition/0,,sid92_gci755068,00.html
+
+And more - http://www.sqaonline.lasth.com/files/SDLC.html 
