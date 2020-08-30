@@ -1,0 +1,44 @@
+Git commands
+THIS IS MASTER BRANCH
+GIT INIT на локальной машине:
+echo "# gitExamples" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/alexkhvastovich/gitExamples.git
+git push -u origin master
+====================================================================================
+git init = инициализировать репозиторий с компа из папки проекта
+
+git add . = добавить все файлы, в стейджинг (то что потом пойдет в коммит)
+git commit -m "First commit" = сделать первый коммит
+
+create github repo 
+
+git remote add origin https://github.com/your_repository = залить с компа в гитхаб
+git remote -v = проверка удаленной ссылки репозитории
+git push origin master = запушать перемены с локальной машины на сервер
+
+
+ 
+git clone https://github.com/your_repository = клонировать реп на локальную машину для работы. 
+git status = показать измененные файлы и те что надо закомитить
+git branch -a = показать все ветки
+git remote show origin = показать удаленные ветки 
+git checkout branch_name = перейти на указанную ветку
+
+git pull = скачать последние изменения из ветки
+
+замерджить ветку develop(которая впереди) в ветку master
+git checkout master = перейти на мастер ветку
+git merge develop = замерджить (добавить) в мастер ветку код из девелоп
+
+посмотреть изменения без пула 
+git fetch    
+git diff develop origin/develop
+git merge 
+^^^^ все равно что заранить git pull
+УДАЛЕНИЕ
+git rm file_name – удалить файл
+git branch -d feature/login – удалить локальную ветвь
+git push origin --delete feature/login – удалить ветвь в гитхабе
